@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nanoFramework.Devices.Can</id>
+    <version>$version$</version>
+    <title>nanoFramework.Devices.Can</title>
+    <authors>nanoFramework project contributors</authors>
+    <owners>nanoFramework project contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+    </releaseNotes>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/nanoframework</projectUrl>
+    <iconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</iconUrl>
+    <copyright>Copyright (c) 2018 The nanoFramework project contributors</copyright>
+    <description>This package includes the nanoFramework.Devices.Can assembly for nanoFramework C# projects.</description>
+    <summary>nanoFramework.Devices.Can assembly for nanoFramework C# projects</summary>
+    <tags>nanoFramework C# csharp netmf netnf nanoFramework.Devices.Can sntp</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="[1.0.6-preview-010]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="nanoFramework.Devices.Can\bin\Release\nanoFramework.Devices.Can.dll" target="lib\nanoFramework.Devices.Can.dll" />
+    <file src="nanoFramework.Devices.Can\bin\Release\nanoFramework.Devices.Can.pdb" target="lib\nanoFramework.Devices.Can.pdb" />
+    <file src="nanoFramework.Devices.Can\bin\Release\nanoFramework.Devices.Can.pdbx" target="lib\nanoFramework.Devices.Can.pdbx" />
+    <file src="nanoFramework.Devices.Can\bin\Release\nanoFramework.Devices.Can.pe" target="lib\nanoFramework.Devices.Can.pe" />
+    <file src="nanoFramework.Devices.Can\bin\Release\nanoFramework.Devices.Can.xml" target="lib\nanoFramework.Devices.Can.xml" />
+  </files>
+</package>
