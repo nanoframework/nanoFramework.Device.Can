@@ -1,6 +1,6 @@
 # Change Log
 
-## [v1.0.0-preview-002](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.0-preview-002) (2018-12-06)
+## [v1.0.0-preview-004](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.0-preview-004) (2018-12-06)
 **Documentation and other chores:**
 
 - Add CAN class library [\#1](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/1)
