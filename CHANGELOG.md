@@ -2,7 +2,14 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-005...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-007...HEAD)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.0.5-preview-010 to 1.0.5-preview-012 [\#14](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/14)
+
+## [v1.0.3-preview-007](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3-preview-007) (2019-04-03)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-005...v1.0.3-preview-007)
 
 **Documentation and other chores:**
 
