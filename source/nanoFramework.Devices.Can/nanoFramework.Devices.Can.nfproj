@@ -22,7 +22,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>..\key.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <DelaySign>false</DelaySign>
@@ -64,7 +64,7 @@
     <Compile Include="CanMessageReceivedEventArgs.cs" />
     <Compile Include="CanControllerEventListener.cs" />
     <Compile Include="CanMessageEvent.cs" />
-    <None Include="..\key.snk" />
+    <None Include="key.snk" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
