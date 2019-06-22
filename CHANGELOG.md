@@ -2,7 +2,14 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.5-preview.6...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.5-preview.9...HEAD)
+
+**Documentation and other chores:**
+
+- Work on native assembly declaration [\#24](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/24) [[Breaking-Change](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/labels/Breaking-Change)]
+
+## [v1.0.5-preview.9](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.9) (2019-06-20)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.5-preview.6...v1.0.5-preview.9)
 
 **Documentation and other chores:**
 
