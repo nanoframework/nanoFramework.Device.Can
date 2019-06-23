@@ -6,6 +6,7 @@
 
 **Documentation and other chores:**
 
+- Update 2 NuGet dependencies [\#26](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/26)
 - Work on native assembly declaration [\#24](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/24) [[Breaking-Change](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/labels/Breaking-Change)]
 
 ## [v1.0.5-preview.9](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.9) (2019-06-20)
@@ -25,12 +26,15 @@
 ## [v1.0.5-preview.2](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.2) (2019-06-12)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.4-preview-002...v1.0.5-preview.2)
 
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#21](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/21)
+
 ## [v1.0.4-preview-002](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.4-preview-002) (2019-04-24)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.4-preview-001...v1.0.4-preview-002)
 
 **Documentation and other chores:**
 
-- Update 2 NuGet dependencies [\#21](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/21)
 - Bumps nanoFramework.Runtime.Events from 1.0.5-preview-019 to 1.0.6-preview-001 [\#16](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/16)
 
 ## [v1.0.4-preview-001](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.4-preview-001) (2019-04-23)
