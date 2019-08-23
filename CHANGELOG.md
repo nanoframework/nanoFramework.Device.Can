@@ -6,6 +6,7 @@
 
 **Documentation and other chores:**
 
+- Update 2 NuGet dependencies [\#30](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/30)
 - Update readme.txt [\#27](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/27)
 
 ## [v1.0.5-preview.16](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.16) (2019-06-23)
