@@ -1,5 +1,98 @@
 # Change Log
 
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.5-preview.16...HEAD)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#30](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/30)
+- Update readme.txt [\#27](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/27)
+
+## [v1.0.5-preview.16](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.16) (2019-06-23)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.5-preview.9...v1.0.5-preview.16)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#26](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/26)
+- Work on native assembly declaration [\#24](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/24) [[Breaking-Change](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/labels/Breaking-Change)]
+
+## [v1.0.5-preview.9](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.9) (2019-06-20)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.5-preview.6...v1.0.5-preview.9)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#23](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/23)
+
+## [v1.0.5-preview.6](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.6) (2019-06-12)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.5-preview.2...v1.0.5-preview.6)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#22](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/22)
+
+## [v1.0.5-preview.2](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.2) (2019-06-12)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.4-preview-002...v1.0.5-preview.2)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#21](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/21)
+
+## [v1.0.4-preview-002](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.4-preview-002) (2019-04-24)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.4-preview-001...v1.0.4-preview-002)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.0.5-preview-019 to 1.0.6-preview-001 [\#16](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/16)
+
+## [v1.0.4-preview-001](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.4-preview-001) (2019-04-23)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-015...v1.0.4-preview-001)
+
+## [v1.0.3-preview-015](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3-preview-015) (2019-04-23)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-009...v1.0.3-preview-015)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#15](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/15)
+
+## [v1.0.3-preview-009](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3-preview-009) (2019-04-07)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-007...v1.0.3-preview-009)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.0.5-preview-010 to 1.0.5-preview-012 [\#14](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/14)
+
+## [v1.0.3-preview-007](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3-preview-007) (2019-04-03)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-005...v1.0.3-preview-007)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.0.5-preview-008 to 1.0.5-preview-010 [\#13](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/13)
+
+## [v1.0.3-preview-005](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3-preview-005) (2019-03-11)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-003...v1.0.3-preview-005)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.0.5-preview-007 to 1.0.5-preview-008 [\#12](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/12)
+
+## [v1.0.3-preview-003](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3-preview-003) (2019-03-10)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-001...v1.0.3-preview-003)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.0.5-preview-003 to 1.0.5-preview-007 [\#11](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/11)
+
+## [v1.0.3-preview-001](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3-preview-001) (2019-03-07)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.2-preview-007...v1.0.3-preview-001)
+
+## [v1.0.2-preview-007](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.2-preview-007) (2019-03-06)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3...v1.0.2-preview-007)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.0.4 to 1.0.5-preview-003 [\#9](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/9)
+
 ## [v1.0.3](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3) (2019-01-22)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.1...v1.0.3)
 
