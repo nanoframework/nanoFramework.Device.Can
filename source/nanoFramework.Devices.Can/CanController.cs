@@ -58,7 +58,9 @@ namespace nanoFramework.Devices.Can
             ControllerId = controller;
 
             // check if this controller is already opened
-            if (!CanControllerManager.ControllersCollection.Contains(_controllerId))
+            var myController = FindController(_controllerId);
+
+            if (myController == null)
             {
                 _settings = new CanSettings(settings);
 
@@ -67,7 +69,7 @@ namespace nanoFramework.Devices.Can
 
                 // add controller to collection, with the ID as key 
                 // ** just the index number ***
-                CanControllerManager.ControllersCollection.Add(_controllerId, this);
+                CanControllerManager.ControllersCollection.Add(this);
 
                 // add the controller to the event listener in order to receive the callbacks from the native interrupts
                 s_eventListener.AddCanController(this);
@@ -97,6 +99,19 @@ namespace nanoFramework.Devices.Can
         /// <param name="message">CAN mesage to write in CAN Bus.</param>
         [MethodImpl(MethodImplOptions.InternalCall)]
         public extern void WriteMessage(CanMessage message);
+
+        internal static CanController FindController(int index)
+        {
+            for (int i = 0; i < CanControllerManager.ControllersCollection.Count; i++)
+            {
+                if (((CanController)CanControllerManager.ControllersCollection[i])._controllerId == index)
+                {
+                    return (CanController)CanControllerManager.ControllersCollection[i];
+                }
+            }
+
+            return null;
+        }
 
         #region IDisposable Support
 

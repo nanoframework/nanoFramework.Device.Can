@@ -12,7 +12,7 @@ namespace nanoFramework.Devices.Can
     internal class CanControllerEventListener : IEventProcessor, IEventListener
     {
         // Map of serial device numbers to CanController objects.
-        private Hashtable _canControllersMap = new Hashtable();
+        private ArrayList _canControllersMap = new ArrayList();
 
         public CanControllerEventListener()
         {
@@ -41,7 +41,9 @@ namespace nanoFramework.Devices.Can
 
             lock (_canControllersMap)
             {
-                if (_canControllersMap.Contains(canMessageEvent.ControllerIndex))
+                device = FindCanController(canMessageEvent.ControllerIndex);
+
+                if (device != null)
                 {
                     device = (CanController)_canControllersMap[canMessageEvent.ControllerIndex];
                 }
@@ -60,7 +62,7 @@ namespace nanoFramework.Devices.Can
         {
             lock (_canControllersMap)
             {
-                _canControllersMap[controller._controllerId] = controller;
+                _canControllersMap.Add(controller);
             }
         }
 
@@ -68,11 +70,25 @@ namespace nanoFramework.Devices.Can
         {
             lock (_canControllersMap)
             {
-                if (_canControllersMap.Contains(index))
+                var controller = FindCanController(index);
+
+                if (controller != null)
                 {
-                    _canControllersMap.Remove(index);
+                    _canControllersMap.Remove(controller);
                 }
             }
+        }
+        private CanController FindCanController(int controllerId)
+        {
+            for (int i = 0; i < _canControllersMap.Count; i++)
+            {
+                if (((CanController)_canControllersMap[i])._controllerId == controllerId)
+                {
+                    return (CanController)_canControllersMap[i];
+                }
+            }
+
+            return null;
         }
     }
 }

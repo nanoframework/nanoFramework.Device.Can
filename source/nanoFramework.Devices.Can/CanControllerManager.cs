@@ -13,7 +13,7 @@ namespace nanoFramework.Devices.Can
 
         // backing field for ControllersCollection
         // to store the controllers that are open
-        private static Hashtable s_controllersCollection;
+        private static ArrayList s_controllersCollection;
 
         /// <summary>
         /// <see cref="CanController"/> collection.
@@ -21,7 +21,7 @@ namespace nanoFramework.Devices.Can
         /// <remarks>
         /// This collection is for internal use only.
         /// </remarks>
-        internal static Hashtable ControllersCollection
+        internal static ArrayList ControllersCollection
         {
             get
             {
@@ -31,7 +31,7 @@ namespace nanoFramework.Devices.Can
                     {
                         if (s_controllersCollection == null)
                         {
-                            s_controllersCollection = new Hashtable();
+                            s_controllersCollection = new ArrayList();
                         }
                     }
                 }
