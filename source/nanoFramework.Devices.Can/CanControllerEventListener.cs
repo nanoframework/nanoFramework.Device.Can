@@ -42,17 +42,16 @@ namespace nanoFramework.Devices.Can
             lock (_canControllersMap)
             {
                 device = FindCanController(canMessageEvent.ControllerIndex);
-
-                if (device == null)
-                {
-                    return false;
-                }
             }
 
             // Avoid calling this under a lock to prevent a potential lock inversion.
             if (device != null)
             {
                 device.OnCanMessageReceivedInternal(canMessageEvent.Event);
+            }
+            else
+            {
+                return false;
             }
 
             return true;
