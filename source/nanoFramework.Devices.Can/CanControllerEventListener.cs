@@ -43,9 +43,9 @@ namespace nanoFramework.Devices.Can
             {
                 device = FindCanController(canMessageEvent.ControllerIndex);
 
-                if (device != null)
+                if (device == null)
                 {
-                    device = (CanController)_canControllersMap[canMessageEvent.ControllerIndex];
+                    return false;
                 }
             }
 
