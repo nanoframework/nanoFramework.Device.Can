@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.1.1-preview.14...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.1.1-preview.17...HEAD)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.4.2-preview.11 to 1.4.2 [\#60](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/60)
+
+## [v1.1.1-preview.17](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.1.1-preview.17) (2020-06-11)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.1.1-preview.14...v1.1.1-preview.17)
 
 **Documentation and other chores:**
 
@@ -148,6 +156,7 @@
 **Documentation and other chores:**
 
 - Bumps nanoFramework.Runtime.Events from 1.1.1-preview.4 to 1.1.1 [\#33](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/33)
+- Update 2 NuGet dependencies [\#26](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/26)
 
 ## [v1.0.5-preview.25](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.25) (2019-10-15)
 
@@ -172,7 +181,6 @@
 **Documentation and other chores:**
 
 - Update 2 NuGet dependencies [\#30](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/30)
-- Update readme.txt [\#27](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/27)
 
 ## [v1.0.5-preview.16](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.16) (2019-06-23)
 
@@ -180,7 +188,7 @@
 
 **Documentation and other chores:**
 
-- Update 2 NuGet dependencies [\#26](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/26)
+- Update readme.txt [\#27](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/27)
 - Work on native assembly declaration [\#24](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/24)
 
 ## [v1.0.5-preview.9](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.5-preview.9) (2019-06-20)
