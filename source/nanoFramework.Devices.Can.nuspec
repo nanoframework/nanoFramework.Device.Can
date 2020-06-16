@@ -21,7 +21,7 @@ This package requires a target with nanoFramework.Devices.Can v$nativeVersion$.<
     <tags>nanoFramework C# csharp netmf netnf nanoFramework.Devices.Can sntp</tags>
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.7.3" />
-      <dependency id="nanoFramework.Runtime.Events" version="1.4.2" />
+      <dependency id="nanoFramework.Runtime.Events" version="1.8.0" />
     </dependencies>
   </metadata>
   <files>
