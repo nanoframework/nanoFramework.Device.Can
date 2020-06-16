@@ -1,6 +1,6 @@
 # Changelog
 
-## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
+## [v1.1.1-preview.19](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.1.1-preview.19) (2020-06-12)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.1.1...HEAD)
 
