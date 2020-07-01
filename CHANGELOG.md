@@ -1,5 +1,25 @@
 # Changelog
 
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.0...HEAD)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.8.0 to 1.8.1-alpha.18 [\#64](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/64)
+
+## [v1.2.0](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.2.0) (2020-06-16)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.2...v1.2.0)
+
+**Documentation and other chores:**
+
+- Release release-v1.2.0 [\#63](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/63)
+
+## [v1.2.1-preview.2](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.2.1-preview.2) (2020-06-16)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.0-preview.5...v1.2.1-preview.2)
+
 ## [v1.2.0-preview.5](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.2.0-preview.5) (2020-06-16)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.1.1...v1.2.0-preview.5)
@@ -256,6 +276,10 @@
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-007...v1.0.3-preview-009)
 
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.0.5-preview-010 to 1.0.5-preview-012 [\#14](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/14)
+
 ## [v1.0.3-preview-007](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.3-preview-007) (2019-04-03)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.0.3-preview-005...v1.0.3-preview-007)
@@ -298,7 +322,6 @@
 
 **Documentation and other chores:**
 
-- Bumps nanoFramework.Runtime.Events from 1.0.5-preview-010 to 1.0.5-preview-012 [\#14](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/14)
 - Update 2 NuGet dependencies [\#7](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/7)
 
 ## [v1.0.1](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.0.1) (2018-12-15)
