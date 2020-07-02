@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.0...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.4...HEAD)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.8.1-alpha.18 to 1.8.1-preview.22 [\#65](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/65)
+
+## [v1.2.1-preview.4](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.2.1-preview.4) (2020-07-01)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.0...v1.2.1-preview.4)
 
 **Documentation and other chores:**
 
