@@ -2,7 +2,24 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.17...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.22...HEAD)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#75](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/75)
+- Bumps nanoFramework.Runtime.Events from 1.8.2-preview.13 to 1.9.0-preview.2 [\#74](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/74)
+
+## [v1.2.1-preview.22](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.2.1-preview.22) (2020-12-07)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.20...v1.2.1-preview.22)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.8.2-preview.13 to 1.9.0-preview.2 [\#73](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/73)
+
+## [v1.2.1-preview.20](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.2.1-preview.20) (2020-12-07)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.17...v1.2.1-preview.20)
 
 **Documentation and other chores:**
 
