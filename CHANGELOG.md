@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.29...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.32...HEAD)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#79](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/pull/79)
+
+## [v1.2.1-preview.32](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/tree/v1.2.1-preview.32) (2021-03-02)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Devices.Can/compare/v1.2.1-preview.29...v1.2.1-preview.32)
 
 **Documentation and other chores:**
 
