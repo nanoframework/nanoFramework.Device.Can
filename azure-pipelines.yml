@@ -25,7 +25,7 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   nugetPackageName: 'nanoFramework.Devices.Can'
-  repoName: 'lib-nanoFramework.Devices.Can'
+  repoName: 'nanoFramework.Devices.Can'
 
 steps:
 
