@@ -1,23 +1,23 @@
 ﻿//
-// Copyright (c) 2018 The nanoFramework project contributors
+// Copyright (c) .NET Foundation and Contributors
 // See LICENSE file in the project root for full license information.
 //
 
 namespace nanoFramework.Devices.Can
 {
     /// <summary>
-    /// CAN message identifier type.
+    /// CAN message frame type.
     /// </summary>
-    public enum CanMessageIdType
+    public enum CanMessageFrameType
     {
         /// <summary>
-        /// Standard Identifier.
+        /// Data frame.
         /// </summary>
-        SID,
+        Data = 0,
 
         /// <summary>
-        /// Extended Identifier.
+        /// Remote request frame.
         /// </summary>
-        EID
+        RemoteRequest
     }
 }
