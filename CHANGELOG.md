@@ -1,8 +1,8 @@
 # Changelog
 
-## [v1.2.2-preview.13](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.2-preview.13) (2021-12-02)
+## [v1.2.3-preview.14](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.3-preview.14) (2022-03-28)
 
-[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.12...HEAD)
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.12...v1.2.3-preview.14)
 
 **Documentation and other chores:**
 
