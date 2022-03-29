@@ -2,6 +2,74 @@
 
 ## [v1.2.2-preview.13](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.2-preview.13) (2021-12-02)
 
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.12...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#110](https://github.com/nanoframework/nanoFramework.Devices.Can/pull/110)
+
+## [v1.2.3-preview.12](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.3-preview.12) (2022-03-28)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.10...v1.2.3-preview.12)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#109](https://github.com/nanoframework/nanoFramework.Devices.Can/pull/109)
+
+## [v1.2.3-preview.10](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.3-preview.10) (2022-03-17)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.9...v1.2.3-preview.10)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#108](https://github.com/nanoframework/nanoFramework.Devices.Can/pull/108)
+
+## [v1.2.3-preview.9](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.3-preview.9) (2022-03-14)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.7...v1.2.3-preview.9)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#107](https://github.com/nanoframework/nanoFramework.Devices.Can/pull/107)
+
+## [v1.2.3-preview.7](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.3-preview.7) (2022-02-17)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.6...v1.2.3-preview.7)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#106](https://github.com/nanoframework/nanoFramework.Devices.Can/pull/106)
+
+## [v1.2.3-preview.6](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.3-preview.6) (2022-01-28)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.5...v1.2.3-preview.6)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#105](https://github.com/nanoframework/nanoFramework.Devices.Can/pull/105)
+
+## [v1.2.3-preview.5](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.3-preview.5) (2022-01-20)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.3-preview.3...v1.2.3-preview.5)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#104](https://github.com/nanoframework/nanoFramework.Devices.Can/pull/104)
+
+## [v1.2.3-preview.3](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.3-preview.3) (2021-12-28)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.2...v1.2.3-preview.3)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.Runtime.Events from 1.9.2 to 1.10.0-preview.1 [\#103](https://github.com/nanoframework/nanoFramework.Devices.Can/pull/103)
+
+## [v1.2.2](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.2) (2021-12-02)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.2-preview.13...v1.2.2)
+
+## [v1.2.2-preview.13](https://github.com/nanoframework/nanoFramework.Devices.Can/tree/v1.2.2-preview.13) (2021-12-02)
+
 [Full Changelog](https://github.com/nanoframework/nanoFramework.Devices.Can/compare/v1.2.2-preview.11...v1.2.2-preview.13)
 
 **Documentation and other chores:**
