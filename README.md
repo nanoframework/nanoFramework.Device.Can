@@ -10,8 +10,7 @@
 
 | Component | Build Status | NuGet Package |
 |:-|---|---|
-| nanoFramework.Devices.Can | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Devices.Can/_apis/build/status/nanoframework.lib-nanoFramework.Devices.Can?branchName=develop)](https://dev.azure.com/nanoframework/nanoFramework.Devices.Can/_build/latest?definitionId=25?branchName=master) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Devices.Can.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Devices.Can/)  |
-| nanoFramework.Devices.Can (preview) | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Devices.Can/_apis/build/status/nanoframework.lib-nanoFramework.Devices.Can?branchName=develop)](https://dev.azure.com/nanoframework/nanoFramework.Devices.Can/_build/latest?definitionId=25?branchName=develop) | [![](https://badgen.net/badge/NuGet/preview/D7B023?icon=https://simpleicons.now.sh/azuredevops/fff)](https://dev.azure.com/nanoframework/feed/_packaging?_a=package&feed=sandbox&package=nanoFramework.Devices.Can&protocolType=NuGet&view=overview) |
+| nanoFramework.Devices.Can | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Devices.Can/_apis/build/status/nanoFramework.Devices.Can?repoName=nanoframework%2FnanoFramework.Devices.Can&branchName=main)](https://dev.azure.com/nanoframework/nanoFramework.Devices.Can/_build/latest?definitionId=25&repoName=nanoframework%2FnanoFramework.Devices.Can&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Devices.Can.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Devices.Can/)  |
 
 ## Feedback and documentation
 
