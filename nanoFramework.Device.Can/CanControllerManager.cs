@@ -5,7 +5,7 @@
 
 using System.Collections;
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     internal sealed class CanControllerManager
     {

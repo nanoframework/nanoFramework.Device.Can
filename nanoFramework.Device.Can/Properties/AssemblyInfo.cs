@@ -4,14 +4,14 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("nanoFramework.Devices.Can")]
+[assembly: AssemblyTitle("nanoFramework.Device.Can")]
 [assembly: AssemblyCompany("nanoFramework Contributors")]
-[assembly: AssemblyProduct("nanoFramework.Devices.Can")]
+[assembly: AssemblyProduct("nanoFramework.Device.Can")]
 [assembly: AssemblyCopyright("Copyright (c) .NET Foundation and Contributors")]
 
 ////////////////////////////////////////////////////////////////
 // update this whenever the native assembly signature changes //
-[assembly: AssemblyNativeVersion("100.0.5.0")]
+[assembly: AssemblyNativeVersion("100.0.5.1")]
 ////////////////////////////////////////////////////////////////
 
 // Setting ComVisible to false makes the types in this assembly not visible 

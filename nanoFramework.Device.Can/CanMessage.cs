@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     /// <summary>
     /// CAN message.

@@ -20,10 +20,6 @@ trigger:
       - config/*
       - .github/*
 
-  tags:
-    include: 
-      - v*
-
 # PR always trigger build
 pr:
   autoCancel: true
@@ -41,10 +37,10 @@ pool:
 
 variables:
   DOTNET_NOLOGO: true
-  solution: 'nanoFramework.Devices.Can.sln'
+  solution: 'nanoFramework.Device.Can.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  nugetPackageName: 'nanoFramework.Devices.Can'
+  nugetPackageName: 'nanoFramework.Device.Can'
 
 steps:
 

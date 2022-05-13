@@ -7,7 +7,7 @@ using nanoFramework.Runtime.Events;
 using System;
 using System.Collections;
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     internal class CanControllerEventListener : IEventProcessor, IEventListener
     {

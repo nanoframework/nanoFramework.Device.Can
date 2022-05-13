@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     // This should be a TypedEventHandler "EventHandler<CanMessageReceivedEventHandler>"
 #pragma warning disable 1591

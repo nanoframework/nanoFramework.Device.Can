@@ -3,21 +3,21 @@
 // See LICENSE file in the project root for full license information.
 //
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     /// <summary>
-    /// Describes the possible types of events for the CAN controller.
+    /// CAN message frame type.
     /// </summary>
-    public enum CanEvent
+    public enum CanMessageFrameType
     {
         /// <summary>
-        /// A CAN message was received.
+        /// Data frame.
         /// </summary>
-        MessageReceived = 0,
+        Data = 0,
 
         /// <summary>
-        /// An error has occurred.
+        /// Remote request frame.
         /// </summary>
-        ErrorOccurred
+        RemoteRequest
     }
 }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nanoFramework.Device.Can</id>
+    <version>$version$</version>
+    <title>nanoFramework.Device.Can</title>
+    <authors>nanoframework</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <releaseNotes>
+    </releaseNotes>
+    <readme>docs\README.md</readme>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/nanoframework/nanoFramework.Device.Can</projectUrl>
+    <icon>images\nf-logo.png</icon>
+    <repository type="git" url="https://github.com/nanoframework/nanoFramework.Device.Can" commit="$commit$" />
+    <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
+    <description>This package includes the nanoFramework.Device.Can assembly for .NET nanoFramework C# projects.
+This package requires a target with nanoFramework.Device.Can v$nativeVersion$ (checksum $checksum$).</description>
+    <tags>nanoFramework C# csharp netmf netnf canbus can</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.12.0" />
+      <dependency id="nanoFramework.Runtime.Events" version="1.10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.dll" target="lib\nanoFramework.Device.Can.dll" />
+    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.pdb" target="lib\nanoFramework.Device.Can.pdb" />
+    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.pdbx" target="lib\nanoFramework.Device.Can.pdbx" />
+    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.pe" target="lib\nanoFramework.Device.Can.pe" />
+    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.xml" target="lib\nanoFramework.Device.Can.xml" />
+    <!-- readme -->
+    <file src="assets\readme.txt" target="" />
+    <file src="README.md" target="docs\" />
+    <file src="assets\nf-logo.png" target="images" />
+    <file src="LICENSE.md" target="" />
+  </files>
+</package>
