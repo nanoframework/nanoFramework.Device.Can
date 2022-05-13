@@ -3,21 +3,21 @@
 // See LICENSE file in the project root for full license information.
 //
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     /// <summary>
-    /// CAN message frame type.
+    /// CAN message identifier type.
     /// </summary>
-    public enum CanMessageFrameType
+    public enum CanMessageIdType
     {
         /// <summary>
-        /// Data frame.
+        /// Standard Identifier.
         /// </summary>
-        Data = 0,
+        SID,
 
         /// <summary>
-        /// Remote request frame.
+        /// Extended Identifier.
         /// </summary>
-        RemoteRequest
+        EID
     }
 }

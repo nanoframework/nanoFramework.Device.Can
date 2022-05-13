@@ -3,7 +3,7 @@
 // See LICENSE file in the project root for full license information.
 //
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     /// <summary>
     /// Represents the settings for CAN bus.

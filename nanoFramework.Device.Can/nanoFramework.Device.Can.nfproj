@@ -12,11 +12,11 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <FileAlignment>512</FileAlignment>
-    <RootNamespace>nanoFramework.Devices.Can</RootNamespace>
-    <AssemblyName>nanoFramework.Devices.Can</AssemblyName>
+    <RootNamespace>nanoFramework.Device.Can</RootNamespace>
+    <AssemblyName>nanoFramework.Device.Can</AssemblyName>
     <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
     <NF_IsCoreLibrary>True</NF_IsCoreLibrary>
-    <DocumentationFile>bin\$(Configuration)\nanoFramework.Devices.Can.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\nanoFramework.Device.Can.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -29,8 +29,8 @@
   </PropertyGroup>
   <PropertyGroup Label="nanoFramework">
     <NF_GenerateStubsDirectory>bin\$(Configuration)\Stubs</NF_GenerateStubsDirectory>
-    <NF_GenerateSkeletonProjectName>nf_devices_can_native</NF_GenerateSkeletonProjectName>
-    <Name>nanoFramework.Devices.Can</Name>
+    <NF_GenerateSkeletonProjectName>nf_device_can_native</NF_GenerateSkeletonProjectName>
+    <Name>nanoFramework.Device.Can</Name>
   </PropertyGroup>
   <ItemGroup>
     <NFMDP_PE_ExcludeClassByName Include="ThisAssembly">

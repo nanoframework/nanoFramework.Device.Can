@@ -3,21 +3,21 @@
 // See LICENSE file in the project root for full license information.
 //
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     /// <summary>
-    /// CAN message identifier type.
+    /// Describes the possible types of events for the CAN controller.
     /// </summary>
-    public enum CanMessageIdType
+    public enum CanEvent
     {
         /// <summary>
-        /// Standard Identifier.
+        /// A CAN message was received.
         /// </summary>
-        SID,
+        MessageReceived = 0,
 
         /// <summary>
-        /// Extended Identifier.
+        /// An error has occurred.
         /// </summary>
-        EID
+        ErrorOccurred
     }
 }

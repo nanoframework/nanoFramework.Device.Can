@@ -5,7 +5,7 @@
 
 using nanoFramework.Runtime.Events;
 
-namespace nanoFramework.Devices.Can
+namespace nanoFramework.Device.Can
 {
     internal class CanMessageEvent : BaseEvent
     {

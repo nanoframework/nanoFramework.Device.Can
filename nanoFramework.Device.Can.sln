@@ -1,14 +1,13 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Devices.Can", "nanoFramework.Devices.Can\nanoFramework.Devices.Can.nfproj", "{99CA76E4-D76F-42C9-9E62-49C2F499AA02}"
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Device.Can", "nanoFramework.Device.Can\nanoFramework.Device.Can.nfproj", "{99CA76E4-D76F-42C9-9E62-49C2F499AA02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B46D657A-F9AC-427C-A131-5323F92F211C}"
 	ProjectSection(SolutionItems) = preProject
-		nanoFramework.Devices.Can.DELIVERABLES.nuspec = nanoFramework.Devices.Can.DELIVERABLES.nuspec
-		nanoFramework.Devices.Can.nuspec = nanoFramework.Devices.Can.nuspec
+		nanoFramework.Device.Can.DELIVERABLES.nuspec = nanoFramework.Device.Can.DELIVERABLES.nuspec
+		nanoFramework.Device.Can.nuspec = nanoFramework.Device.Can.nuspec
 		NuGet.Config = NuGet.Config
 		version.json = version.json
 	EndProjectSection

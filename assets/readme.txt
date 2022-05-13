@@ -6,7 +6,7 @@
                                                                                
 ===================================================================================
 
-API docs: https://docs.nanoframework.net/api/nanoFramework.Devices.Can.html
+API docs: https://docs.nanoframework.net/api/nanoFramework.Device.Can.html
 
 Browse our samples repository: https://github.com/nanoframework/samples
 
