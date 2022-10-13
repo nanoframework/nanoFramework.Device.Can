@@ -20,7 +20,7 @@ trigger:
       - config/*
       - .github/*
 
-  tags:
+        tags:
     include: 
       - v*
 
@@ -36,57 +36,30 @@ resources:
       name: nanoframework/nf-tools
       endpoint: nanoframework
 
-jobs:
+pool:
+  vmImage: 'windows-latest'
 
-##############################
-- job: Build_Library
-  condition: >-
-    or(
-      eq(variables['UPDATE_DEPENDENTS'], 'false'),
-      eq(variables['StartReleaseCandidate'], 'true')
-    )
-  pool:
-    vmImage: 'windows-latest'
+variables:
+  DOTNET_NOLOGO: true
+  solution: 'nanoFramework.Device.Can.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  nugetPackageName: 'nanoFramework.Device.Can'
 
-  variables:
-    DOTNET_NOLOGO: true
-    solution: 'nanoFramework.Device.Can.sln'
-    buildPlatform: 'Any CPU'
-    buildConfiguration: 'Release'
-    nugetPackageName: 'nanoFramework.Device.Can'
+steps:
 
-  steps:
+# step from template @ nf-tools repo
+# all build, update and publish steps
+- template: azure-pipelines-templates/class-lib-build.yml@templates
+  parameters:
+    sonarCloudProject: 'nanoFramework.Device.Can'
+#    runUnitTests: false
+#    unitTestRunsettings: '$(System.DefaultWorkingDirectory)\.runsettings'
 
-  # step from template @ nf-tools repo
-  # all build, update and publish steps
-  - template: azure-pipelines-templates/class-lib-build.yml@templates
-    parameters:
-      sonarCloudProject: 'nanoframework_lib-nanoFramework.Devices.Can' # NOTE: this is not currently aligned with the latest namespace `device`!
-
-##################################
-# report build failure to Discord
-- job: Report_Build_Failure
-  
-  dependsOn:
-  - Build_Library
-  - Update_Dependents
-  condition: >-
-    or(
-      failed('Build_Library'),
-      failed('Update_Dependents')
-    )
-
-  pool:
-    vmImage: 'windows-latest'
-
-  steps:
-  
-  - checkout: self
-
-  # step from template @ nf-tools repo
-  # report error
-  - template: azure-pipelines-templates/discord-webhook-task.yml@templates  
-    parameters:
-      status: 'failure'
-      webhookUrl: '$(DiscordWebhook)'
-      message: ''
+# step from template @ nf-tools repo
+# report error
+- template: azure-pipelines-templates/discord-webhook-task.yml@templates  
+  parameters:
+    status: 'failure'
+    webhookUrl: '$(DiscordWebhook)'
+    message: ''
