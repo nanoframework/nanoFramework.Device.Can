@@ -14,4 +14,4 @@ jobs:
     name: nanoFramework
     uses: nanoframework/nf-tools/.github/workflows/check-packages-updated.yml@main
     with:
-      solution: 'nanoFramework.Devices.Can.sln'
+      solution: 'nanoFramework.Device.Can.sln'
