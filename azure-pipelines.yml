@@ -20,7 +20,7 @@ trigger:
       - config/*
       - .github/*
 
-        tags:
+  tags:
     include: 
       - v*
 
@@ -52,9 +52,7 @@ steps:
 # all build, update and publish steps
 - template: azure-pipelines-templates/class-lib-build.yml@templates
   parameters:
-    sonarCloudProject: 'nanoFramework.Devices.Can'
-#    runUnitTests: false
-#    unitTestRunsettings: '$(System.DefaultWorkingDirectory)\.runsettings'
+    sonarCloudProject: 'nanoframework_lib-nanoFramework.Devices.Can'
 
 # step from template @ nf-tools repo
 # report error
