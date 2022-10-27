@@ -53,6 +53,7 @@
     <Compile Include="CanMessageReceivedEventArgs.cs" />
     <Compile Include="CanControllerEventListener.cs" />
     <Compile Include="CanMessageEvent.cs" />
+    <Compile Include="CanTiming.cs" />
     <None Include="key.snk" />
   </ItemGroup>
   <ItemGroup>
