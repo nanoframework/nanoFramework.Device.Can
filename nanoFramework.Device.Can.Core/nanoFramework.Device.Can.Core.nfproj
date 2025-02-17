@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.props" Condition="Exists('..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="GenerateStubs|AnyCPU">
+      <Configuration>GenerateStubs</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="StubGeneration|AnyCPU">
+      <Configuration>StubGeneration</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <NanoFrameworkProjectSystemPath>$(MSBuildExtensionsPath)\nanoFramework\v1.0\</NanoFrameworkProjectSystemPath>
   </PropertyGroup>
@@ -14,10 +32,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <FileAlignment>512</FileAlignment>
     <RootNamespace>nanoFramework.Device.Can</RootNamespace>
-    <AssemblyName>nanoFramework.Device.Can</AssemblyName>
+    <AssemblyName>nanoFramework.Device.Can.Core</AssemblyName>
     <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
-    <NF_IsCoreLibrary>True</NF_IsCoreLibrary>
-    <DocumentationFile>bin\$(Configuration)\nanoFramework.Device.Can.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\nanoFramework.Device.Can.Core.xml</DocumentationFile>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <RestoreLockedMode Condition="'$(TF_BUILD)' == 'True' or '$(ContinuousIntegrationBuild)' == 'True'">true</RestoreLockedMode>
   </PropertyGroup>
@@ -30,10 +47,14 @@
   <PropertyGroup>
     <DelaySign>false</DelaySign>
   </PropertyGroup>
-  <PropertyGroup Label="nanoFramework">
+  <PropertyGroup Condition=" '$(Configuration)' == 'GenerateStubs' ">
+    <NF_IsCoreLibrary>True</NF_IsCoreLibrary>
+    <DefineConstants>$(DefineConstants);STUBGENERATION</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Label="nanoFramework" Condition=" '$(Configuration)' == 'GenerateStubs' ">
     <NF_GenerateStubsDirectory>bin\$(Configuration)\Stubs</NF_GenerateStubsDirectory>
-    <NF_GenerateSkeletonProjectName>nf_device_can_native</NF_GenerateSkeletonProjectName>
-    <Name>nanoFramework.Device.Can</Name>
+    <NF_GenerateSkeletonProjectName>nf_device_can_core_native</NF_GenerateSkeletonProjectName>
+    <Name>nanoFramework.Device.Can.Core</Name>
   </PropertyGroup>
   <ItemGroup>
     <NFMDP_PE_ExcludeClassByName Include="ThisAssembly">

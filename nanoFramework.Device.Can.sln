@@ -2,28 +2,64 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Device.Can", "nanoFramework.Device.Can\nanoFramework.Device.Can.nfproj", "{99CA76E4-D76F-42C9-9E62-49C2F499AA02}"
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Device.Can.Core", "nanoFramework.Device.Can.Core\nanoFramework.Device.Can.Core.nfproj", "{99CA76E4-D76F-42C9-9E62-49C2F499AA02}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B46D657A-F9AC-427C-A131-5323F92F211C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages and stubs", "Packages and stubs", "{B46D657A-F9AC-427C-A131-5323F92F211C}"
 	ProjectSection(SolutionItems) = preProject
-		nanoFramework.Device.Can.DELIVERABLES.nuspec = nanoFramework.Device.Can.DELIVERABLES.nuspec
-		nanoFramework.Device.Can.nuspec = nanoFramework.Device.Can.nuspec
+		nanoFramework.Device.Can.Core.nuspec = nanoFramework.Device.Can.Core.nuspec
+		nanoFramework.Device.Can.Esp32.nuspec = nanoFramework.Device.Can.Esp32.nuspec
+		nanoFramework.Device.Can.Mcp2515.nuspec = nanoFramework.Device.Can.Mcp2515.nuspec
+		nanoFramework.Device.Can.Stm32.nuspec = nanoFramework.Device.Can.Stm32.nuspec
 		NuGet.Config = NuGet.Config
+		README.md = README.md
+		Stub-generation.md = Stub-generation.md
 		version.json = version.json
 	EndProjectSection
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Device.Can.Esp32", "nanoFramework.Device.Can.Esp32\nanoFramework.Device.Can.Esp32.nfproj", "{7CE9A616-F4A4-43EA-B067-526155C823AC}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Device.Can.Stm32", "nanoFramework.Device.Can.Stm32\nanoFramework.Device.Can.Stm32.nfproj", "{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Device.Can.Mcp2515", "nanoFramework.Device.Can.Mcp2515\nanoFramework.Device.Can.Mcp2515.nfproj", "{9263BAA1-79C2-4A5F-9B36-EF2B24D6DF26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		GenerateStubs|Any CPU = GenerateStubs|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{99CA76E4-D76F-42C9-9E62-49C2F499AA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99CA76E4-D76F-42C9-9E62-49C2F499AA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99CA76E4-D76F-42C9-9E62-49C2F499AA02}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{99CA76E4-D76F-42C9-9E62-49C2F499AA02}.GenerateStubs|Any CPU.ActiveCfg = GenerateStubs|Any CPU
+		{99CA76E4-D76F-42C9-9E62-49C2F499AA02}.GenerateStubs|Any CPU.Build.0 = GenerateStubs|Any CPU
 		{99CA76E4-D76F-42C9-9E62-49C2F499AA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99CA76E4-D76F-42C9-9E62-49C2F499AA02}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99CA76E4-D76F-42C9-9E62-49C2F499AA02}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7CE9A616-F4A4-43EA-B067-526155C823AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE9A616-F4A4-43EA-B067-526155C823AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE9A616-F4A4-43EA-B067-526155C823AC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7CE9A616-F4A4-43EA-B067-526155C823AC}.GenerateStubs|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE9A616-F4A4-43EA-B067-526155C823AC}.GenerateStubs|Any CPU.Build.0 = Debug|Any CPU
+		{7CE9A616-F4A4-43EA-B067-526155C823AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE9A616-F4A4-43EA-B067-526155C823AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE9A616-F4A4-43EA-B067-526155C823AC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}.GenerateStubs|Any CPU.ActiveCfg = Debug|Any CPU
+		{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}.GenerateStubs|Any CPU.Build.0 = Debug|Any CPU
+		{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695177A1-93CE-4AC4-88A2-EEFDDF327D0F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9263BAA1-79C2-4A5F-9B36-EF2B24D6DF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9263BAA1-79C2-4A5F-9B36-EF2B24D6DF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9263BAA1-79C2-4A5F-9B36-EF2B24D6DF26}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9263BAA1-79C2-4A5F-9B36-EF2B24D6DF26}.GenerateStubs|Any CPU.ActiveCfg = Debug|Any CPU
+		{9263BAA1-79C2-4A5F-9B36-EF2B24D6DF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9263BAA1-79C2-4A5F-9B36-EF2B24D6DF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9263BAA1-79C2-4A5F-9B36-EF2B24D6DF26}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

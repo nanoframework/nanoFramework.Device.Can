@@ -37,7 +37,7 @@
         }
     ],
     "sort": "ASC",
-    "template": "${{CHANGELOG}}\n\n**Full Changelog:** ${{RELEASE_DIFF}}\n\nThe following NuGet package is available from this release:\n\n:package: [nanoFramework.Devices.Can](https://www.nuget.org/packages/nanoFramework.Devices.Can/)",
+    "template": "${{CHANGELOG}}\n\n**Full Changelog:** ${{RELEASE_DIFF}}\n\nThe following NuGet packages are available from this release:\n\n:package: [nanoFramework.Devices.Can.Core](https://www.nuget.org/packages/nanoFramework.Devices.Can.Core/)\n:package: [nanoFramework.Device.Can.Stm32](https://www.nuget.org/packages/nanoFramework.Devices.Can.Stm32/)",
     "pr_template": "* ${{TITLE}} by @${{AUTHOR}} in #${{NUMBER}}",
     "empty_template": "- no changes",
     "max_tags_to_fetch": 200,
