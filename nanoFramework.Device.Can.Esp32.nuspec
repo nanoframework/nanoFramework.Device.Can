@@ -21,7 +21,6 @@ This package requires a target with nanoFramework.Device.Can.Esp32 v$nativeVersi
     <tags>nanoFramework C# csharp netmf netnf canbus can</tags>
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.16.11" />
-      <dependency id="nanoFramework.Runtime.Events" version="1.11.29" />
       <dependency id="nanoFramework.Device.Can.Core" version="$version$" />
     </dependencies>
   </metadata>
