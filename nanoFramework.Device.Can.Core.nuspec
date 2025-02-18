@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>nanoFramework.Device.Can</id>
+    <id>nanoFramework.Device.Can.Core</id>
     <version>$version$</version>
-    <title>nanoFramework.Device.Can</title>
+    <title>nanoFramework.Device.Can.Core</title>
     <authors>nanoframework</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">LICENSE.md</license>
@@ -15,8 +15,8 @@
     <icon>images\nf-logo.png</icon>
     <repository type="git" url="https://github.com/nanoframework/nanoFramework.Device.Can" commit="$commit$" />
     <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
-    <description>This package includes the nanoFramework.Device.Can assembly for .NET nanoFramework C# projects.
-This package requires a target with nanoFramework.Device.Can v$nativeVersion$ (checksum $checksum$).</description>
+    <description>This package includes the nanoFramework.Device.Can.Core assembly for .NET nanoFramework C# projects.
+It contains the device-independent part of the implementation of the nanoFramework.Device.Can namespace.</description>
     <tags>nanoFramework C# csharp netmf netnf canbus can</tags>
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.16.11" />
@@ -24,11 +24,11 @@ This package requires a target with nanoFramework.Device.Can v$nativeVersion$ (c
     </dependencies>
   </metadata>
   <files>
-    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.dll" target="lib\nanoFramework.Device.Can.dll" />
-    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.pdb" target="lib\nanoFramework.Device.Can.pdb" />
-    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.pdbx" target="lib\nanoFramework.Device.Can.pdbx" />
-    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.pe" target="lib\nanoFramework.Device.Can.pe" />
-    <file src="nanoFramework.Device.Can\bin\Release\nanoFramework.Device.Can.xml" target="lib\nanoFramework.Device.Can.xml" />
+    <file src="nanoFramework.Device.Can.Core\bin\Release\nanoFramework.Device.Can.Core.dll" target="lib\nanoFramework.Device.Can.Core.dll" />
+    <file src="nanoFramework.Device.Can.Core\bin\Release\nanoFramework.Device.Can.Core.pdb" target="lib\nanoFramework.Device.Can.Core.pdb" />
+    <file src="nanoFramework.Device.Can.Core\bin\Release\nanoFramework.Device.Can.Core.pdbx" target="lib\nanoFramework.Device.Can.Core.pdbx" />
+    <file src="nanoFramework.Device.Can.Core\bin\Release\nanoFramework.Device.Can.Core.pe" target="lib\nanoFramework.Device.Can.Core.pe" />
+    <file src="nanoFramework.Device.Can.Core\bin\Release\nanoFramework.Device.Can.Core.xml" target="lib\nanoFramework.Device.Can.Core.xml" />
     <!-- readme -->
     <file src="assets\readme.txt" target="" />
     <file src="README.md" target="docs\" />

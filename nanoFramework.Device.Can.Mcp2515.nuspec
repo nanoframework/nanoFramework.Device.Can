@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nanoFramework.Device.Can.Mcp2515</id>
+    <version>$version$</version>
+    <title>nanoFramework.Device.Can.Mcp2515</title>
+    <authors>nanoframework</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <releaseNotes>
+    </releaseNotes>
+    <readme>docs\README.md</readme>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/nanoframework/nanoFramework.Device.Can</projectUrl>
+    <icon>images\nf-logo.png</icon>
+    <repository type="git" url="https://github.com/nanoframework/nanoFramework.Device.Can" commit="$commit$" />
+    <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
+    <description>This package includes the nanoFramework.Device.Can.Mcp2515 assembly for .NET nanoFramework C# projects.
+It contains the device-dependent part of the implementation of the nanoFramework.Device.Can namespace for a CAN-bus that is accessed using a MCP2515.</description>
+    <tags>nanoFramework C# csharp netmf netnf canbus can</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.16.11" />
+      <dependency id="nanoFramework.Device.Can.Core" version="$version$" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="nanoFramework.Device.Can.Mcp2515\bin\Release\nanoFramework.Device.Can.Mcp2515.dll" target="lib\nanoFramework.Device.Can.Mcp2515.dll" />
+    <file src="nanoFramework.Device.Can.Mcp2515\bin\Release\nanoFramework.Device.Can.Mcp2515.pdb" target="lib\nanoFramework.Device.Can.Mcp2515.pdb" />
+    <file src="nanoFramework.Device.Can.Mcp2515\bin\Release\nanoFramework.Device.Can.Mcp2515.pdbx" target="lib\nanoFramework.Device.Can.Mcp2515.pdbx" />
+    <file src="nanoFramework.Device.Can.Mcp2515\bin\Release\nanoFramework.Device.Can.Mcp2515.pe" target="lib\nanoFramework.Device.Can.Mcp2515.pe" />
+    <file src="nanoFramework.Device.Can.Mcp2515\bin\Release\nanoFramework.Device.Can.Mcp2515.xml" target="lib\nanoFramework.Device.Can.Mcp2515.xml" />
+    <!-- readme -->
+    <file src="assets\readme.txt" target="" />
+    <file src="README.md" target="docs\" />
+    <file src="assets\nf-logo.png" target="images" />
+    <file src="LICENSE.md" target="" />
+  </files>
+</package>

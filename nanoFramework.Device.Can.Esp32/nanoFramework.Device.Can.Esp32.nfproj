@@ -9,17 +9,18 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{11A8DD76-328B-46DF-9F39-F559912D0360};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>99ca76e4-d76f-42c9-9e62-49c2f499aa02</ProjectGuid>
+    <ProjectGuid>{7CE9A616-F4A4-43EA-B067-526155C823AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <FileAlignment>512</FileAlignment>
     <RootNamespace>nanoFramework.Device.Can</RootNamespace>
-    <AssemblyName>nanoFramework.Device.Can</AssemblyName>
+    <AssemblyName>nanoFramework.Device.Can.Esp32</AssemblyName>
     <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
     <NF_IsCoreLibrary>True</NF_IsCoreLibrary>
-    <DocumentationFile>bin\$(Configuration)\nanoFramework.Device.Can.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\nanoFramework.Device.Can.Esp32.xml</DocumentationFile>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <RestoreLockedMode Condition="'$(TF_BUILD)' == 'True' or '$(ContinuousIntegrationBuild)' == 'True'">true</RestoreLockedMode>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -32,8 +33,8 @@
   </PropertyGroup>
   <PropertyGroup Label="nanoFramework">
     <NF_GenerateStubsDirectory>bin\$(Configuration)\Stubs</NF_GenerateStubsDirectory>
-    <NF_GenerateSkeletonProjectName>nf_device_can_native</NF_GenerateSkeletonProjectName>
-    <Name>nanoFramework.Device.Can</Name>
+    <NF_GenerateSkeletonProjectName>nf_device_can_esp32_native</NF_GenerateSkeletonProjectName>
+    <Name>nanoFramework.Device.Can.Esp32</Name>
   </PropertyGroup>
   <ItemGroup>
     <NFMDP_PE_ExcludeClassByName Include="ThisAssembly">
@@ -42,17 +43,6 @@
   </ItemGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.props" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.props')" />
   <ItemGroup>
-    <Compile Include="CanController.cs" />
-    <Compile Include="CanControllerManager.cs" />
-    <Compile Include="CanMessage.cs" />
-    <Compile Include="CanMessageFrameType.cs" />
-    <Compile Include="CanSettings.cs" />
-    <Compile Include="CanEvent.cs" />
-    <Compile Include="CanMessageIdType.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CanMessageReceivedEventArgs.cs" />
-    <Compile Include="CanControllerEventListener.cs" />
-    <Compile Include="CanMessageEvent.cs" />
     <None Include="key.snk" />
   </ItemGroup>
   <ItemGroup>
@@ -63,9 +53,9 @@
     <Reference Include="mscorlib, Version=1.16.11.0, Culture=neutral, PublicKeyToken=c07d481e9758c731">
       <HintPath>..\packages\nanoFramework.CoreLibrary.1.16.11\lib\mscorlib.dll</HintPath>
     </Reference>
-    <Reference Include="nanoFramework.Runtime.Events, Version=1.11.29.0, Culture=neutral, PublicKeyToken=c07d481e9758c731">
-      <HintPath>..\packages\nanoFramework.Runtime.Events.1.11.29\lib\nanoFramework.Runtime.Events.dll</HintPath>
-    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nanoFramework.Device.Can.Core\nanoFramework.Device.Can.Core.nfproj" />
   </ItemGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets')" />
   <ProjectExtensions>
