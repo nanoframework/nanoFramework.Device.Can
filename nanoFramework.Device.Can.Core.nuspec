@@ -20,6 +20,7 @@ It contains the device-independent part of the implementation of the nanoFramewo
     <tags>nanoFramework C# csharp netmf netnf canbus can</tags>
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.16.11" />
+      <dependency id="nanoFramework.Runtime.Events" version="1.11.29" />
     </dependencies>
   </metadata>
   <files>
