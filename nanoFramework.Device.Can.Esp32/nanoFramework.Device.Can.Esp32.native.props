@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="GenerateStubs|AnyCPU">
+      <Configuration>GenerateStubs</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup>
+    <NF_IsCoreLibrary>True</NF_IsCoreLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'GenerateStubs' ">
+    <DefineConstants>$(DefineConstants);GENERATESTUBS</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Label="nanoFramework">
+    <NF_GenerateStubsDirectory>bin\$(Configuration)\Stubs</NF_GenerateStubsDirectory>
+    <NF_GenerateSkeletonProjectName>nf_device_can_esp32_native</NF_GenerateSkeletonProjectName>
+    <Name>nanoFramework.Device.Can.Esp32</Name>
+  </PropertyGroup>
+  <ItemGroup>
+    <NFMDP_PE_ExcludeClassByName Include="ThisAssembly">
+      <InProject>false</InProject>
+    </NFMDP_PE_ExcludeClassByName>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nanoFramework.Device.Can.Core\nanoFramework.Device.Can.Core.nfproj"  Condition=" '$(Configuration)' != 'GenerateStubs' "/>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'GenerateStubs' ">
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanController.cs" />
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanMessage.cs" />
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanMessageFrameType.cs" />
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanSettings.cs" />
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanEvent.cs" />
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanMessageIdType.cs" />
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanMessageReceivedEventArgs.cs" />
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanControllerEventListener.cs" />
+    <Compile Include="..\nanoFramework.Device.Can.Core\CanMessageEvent.cs" />
+  </ItemGroup>
+</Project>
