@@ -1,7 +1,5 @@
-﻿//
-// Copyright (c) .NET Foundation and Contributors
-// See LICENSE file in the project root for full license information.
-//
+﻿// Licensed to the .NET Foundation under one or more agreements.
+// The .NET Foundation licenses this file to you under the MIT license.
 
 using System;
 using System.Runtime.CompilerServices;
@@ -67,10 +65,11 @@ namespace nanoFramework.Device.Can
                 // call native init to allow HAL/PAL inits related with Can hardware
                 NativeInit();
 
+#if !GENERATESTUBS
                 // add controller to collection, with the ID as key 
                 // ** just the index number ***
                 CanControllerManager.ControllersCollection.Add(this);
-
+#endif
                 // add the controller to the event listener in order to receive the callbacks from the native interrupts
                 s_eventListener.AddCanController(this);
             }
@@ -102,6 +101,7 @@ namespace nanoFramework.Device.Can
 
         internal static CanController FindController(int index)
         {
+#if !GENERATESTUBS
             for (int i = 0; i < CanControllerManager.ControllersCollection.Count; i++)
             {
                 if (((CanController)CanControllerManager.ControllersCollection[i])._controllerId == index)
@@ -109,7 +109,7 @@ namespace nanoFramework.Device.Can
                     return (CanController)CanControllerManager.ControllersCollection[i];
                 }
             }
-
+#endif
             return null;
         }
 
@@ -121,9 +121,10 @@ namespace nanoFramework.Device.Can
             {
                 if (disposing)
                 {
+#if !GENERATESTUBS
                     // remove controller from controller collection
                     CanControllerManager.ControllersCollection.Remove(this);
-
+#endif
                     // remove the controller from the event listener
                     s_eventListener.RemoveCanController(_controllerId);
                 }

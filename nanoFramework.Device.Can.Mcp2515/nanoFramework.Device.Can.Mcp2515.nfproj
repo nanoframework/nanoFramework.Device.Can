@@ -51,6 +51,9 @@
   <ItemGroup>
     <ProjectReference Include="..\nanoFramework.Device.Can.Core\nanoFramework.Device.Can.Core.nfproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets')" />
   <ProjectExtensions>
     <ProjectCapabilities>
