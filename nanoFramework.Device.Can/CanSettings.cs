@@ -22,6 +22,9 @@ namespace nanoFramework.Device.Can
         [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
         private byte _syncJumpWidth;
 
+        [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
+        private CanBitTiming _timing = CanBitTiming._None;
+
         /// <summary>
         /// Initializes a new instance of <see cref="CanSettings"/>.
         /// </summary>
@@ -35,6 +38,14 @@ namespace nanoFramework.Device.Can
             _phaseSegment1 = phaseSegment1;
             _phaseSegment2 = phaseSegment2;
             _syncJumpWidth = syncJumpWidth;
+        }
+
+        /// <summary>
+        /// Initializes a new instance of <see cref="CanSettings"/>.
+        /// </summary>
+        /// <param name="timing">Bus baud rate timing preset.</param>
+        public CanSettings (CanBitTiming timing) {
+            _timing = timing;
         }
 
         /// <summary>
@@ -83,6 +94,15 @@ namespace nanoFramework.Device.Can
         {
             get { return _syncJumpWidth; }
             set { _syncJumpWidth = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the <see cref="CanBitTiming"/>.
+        /// </summary>
+        public CanBitTiming Timing
+        {
+            get { return _timing; }
+            set { _timing = value; }
         }
     }
 }
