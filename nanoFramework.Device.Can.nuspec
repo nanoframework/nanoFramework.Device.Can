@@ -20,7 +20,7 @@ This package requires a target with nanoFramework.Device.Can v$nativeVersion$ (c
     <tags>nanoFramework C# csharp netmf netnf canbus can</tags>
     <dependencies>
       <group targetFramework=".NETnanoFramework1.0">
-        <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.39" />
+        <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.43" />
         <dependency id="nanoFramework.Runtime.Events" version="2.0.0-preview.10" />
       </group>
     </dependencies>
