@@ -20,8 +20,8 @@ This package requires a target with nanoFramework.Device.Can native contract has
     <tags>nanoFramework C# csharp netmf netnf canbus can nfnc-$nativeContractHash$</tags>
     <dependencies>
       <group targetFramework=".NETnanoFramework1.0">
-        <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.110" />
-        <dependency id="nanoFramework.Runtime.Events" version="2.0.0-preview.19" />
+        <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.125" />
+        <dependency id="nanoFramework.Runtime.Events" version="2.0.0-preview.23" />
       </group>
     </dependencies>
   </metadata>
